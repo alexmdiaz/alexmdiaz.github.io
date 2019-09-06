@@ -189,7 +189,7 @@ function makePurchaseURL(partnerSlug, buildingID, coverageAmt) {
 	// Concat the URL
 	var url = "https://marketing-site.rbalicki2.jetty.com/app/partner/"
 		+ partnerSlug
-		+ "?skipInitialStep=1&buildingId="
+		+ "/?skipInitialStep=1&buildingId="
 		+ buildingID
 		+ "&policyRequests%5B0%5D%5BquoteRequest%5D%5BsecurityDepositAmount%5D="
 		+ coverageAmt;
